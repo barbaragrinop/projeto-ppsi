@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style/global.css">
+	<link rel="stylesheet" href="style/contact.css">
+
+	<title>Contato</title>
+</head>
+
+<body>
+	<header>
+		<h1>Projeto Orientado</h1>
+
+		<nav>
+			<a href="index.html">Home  </a>
+			<a href="barbara.html">Barbara Hellen  </a>
+			<a href="gabriel.html">Gabriel Sobral  </a>
+			<a href="curiosidades.html">Tabela de curiosidades  </a>
+			<a href="sites-favoritos.html">Sites favoritos  </a>
+			<a href="descobrindo.html">Descobrindo tags  </a>
+			<a href="descobrindo-css.html">Descobrindo propriedades CSS  </a>
+			<a class="active" href="#">Contato</a>
+		</nav>
+	</header>
+
+	<main>
+		<h2>Contato</h2>
+		<p>Entre em contato conosco para tirar a sua dúvida</p>
+
+		<form action="http://hub.fatecrl.edu.br/sobrino/recebe.php" method="post">
+			<p>
+				<label for="name">Nome:</label>
+				<input type="text" placeholder="Digite o seu nome" name="name" id="name" autofocus required>
+			</p>
+
+			<p>
+				<label for="name">Email:</label>
+				<input type="email" placeholder="Digite o seu email" name="email" id="email" required>
+			</p>
+
+			<p>
+				<label for="question">Dúvida:</label>
+				<textarea placeholder="Digite a sua dúvida" name="question" id="question" rows="6" required></textarea>
+			</p>
+
+			<fieldset>
+				<legend>Sexo:</legend>
+
+				<label for="male">Masculino</label>
+				<input type="radio" checked id="male" name="user_sex" value="male">
+
+				<label for="female">Feminino</label>
+				<input type="radio" id="female" name="user_sex" value="female">
+
+				<label for="none">Não informar</label>
+				<input type="radio" id="none" name="user_sex" value="none">
+			</fieldset>
+
+			<button type="submit">Enviar</button>
+		</form>
+	</main>
+</body>
+
+</html>

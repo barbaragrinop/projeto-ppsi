@@ -1,0 +1,19 @@
+body > main > h2 {
+  margin: auto;
+}
+
+body > main > table {
+  width: 40rem;
+  margin: auto;
+  box-shadow: 5px 5px 10px #00000010;
+}
+
+body > main > table th{
+  border: 1px solid var(--primary);
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+body > main > table tr, th, td{
+  border: 1px solid var(--primary);
+}

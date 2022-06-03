@@ -1,0 +1,28 @@
+body > main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body > main > section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  background-color: var(--background);
+  padding: 1rem;
+  box-shadow: 5px 5px 10px #00000010;
+}
+body > main > section > div {
+  border: 2px solid var(--primary);
+  padding: 1rem;
+  border-radius: 7px;
+}
+
+body > main > section > div > h3 {
+  margin-bottom: 0.75rem;
+}
+
+body > main > section > div > ul > li {
+  list-style: none;
+}

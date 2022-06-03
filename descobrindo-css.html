@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/global.css">
+  <link rel="stylesheet" href="style/discover-css.css">
+
+  <title>Descobrindo Propriedades CSS</title>
+</head>
+
+<body>
+  <header>
+    <h1>Projeto Orientado</h1>
+
+    <nav>
+      <a href="index.html">Home  </a>
+      <a href="barbara.html">Barbara Hellen  </a>
+      <a href="gabriel.html">Gabriel Sobral  </a>
+      <a href="curiosidades.html">Tabela de curiosidades  </a>
+      <a href="sites-favoritos.html">Sites favoritos  </a>
+      <a href="descobrindo.html">Descobrindo tags  </a>
+      <a class="active"href="#">Descobrindo propriedades CSS  </a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Descobrindo propriedades CSS</h2>
+    <p>
+      Propriedades CSS pesquisadas e usadas por nós no nosso dia a dia, porém não foram <br>
+      passadas em aula ainda.
+    </p>
+
+    <section>
+      <h3>cursor</h3>
+      <p>
+        Propriedade utilizada para alterar o visual do cursor do usuário, podendo ser usado para mostrar alguma estado atual da sua aplicação ou possibilidade de interação do usuário
+      </p>
+
+      <div class="cursor-example">
+        <button type="button">Pointer</button>
+        <button type="button">Wait</button>
+        <button type="button">Crosshair</button>
+        <button type="button">Not Allowed</button>
+      </div>
+    </section>
+
+    <hr>
+
+    <section>
+      <h3>white-space</h3>
+      <p>
+        Propriedade CSS para lidar com os espaços em branco de um elemento.
+      </p>
+
+      <div class="white-space-example">
+        <div>
+          <strong>Normal</strong>
+          <span>Texto de teste utilizado para preencher espaço para poder mostrar como o text-overflow funciona na prática.</span>
+        </div>
+
+        <div>
+          <strong>No-Wrap</strong>
+          <span>Texto de teste utilizado para preencher espaço para poder mostrar como o text-overflow funciona na prática.</span>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section>
+      <h3>overflow</h3>
+      <p>
+        Define o comportamento de um elemento pai caso o seus elementos filhos ultrapassem o seu tamanho.
+      </p>
+
+      <div class="overflow-example">
+        <div>
+          <strong>Visible</strong>
+          <span>Texto de teste utilizado para preencher espaço para poder mostrar como o overflow funciona na prática.</span>
+        </div>
+
+        <div>
+          <strong>Hidden</strong>
+          <span>Texto de teste utilizado para preencher espaço para poder mostrar como o overflow funciona na prática, em uma experiência de mundo real</span>
+        </div>
+
+        <div>
+          <strong>Scroll</strong>
+          <span>Texto de teste utilizado para preencher espaço para poder mostrar como o overflow funciona na prática, em uma experiência de mundo real</span>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section>
+      <h3>text-overflow</h3>
+      <p>
+        Propriedade CSS que define como um texto irá se comportar ao ultrapassar o seu espaço pré-estabelecido pelo seu elemento pai.
+      </p>
+      <p>
+        Vale lembrar que essa propriedade precisa estar seguida de um <code>white-space: nowrap</code> e um <code>overflow: hidden</code>
+      </p>
+
+      <div class="text-overflow-example">
+        <div>
+          <strong>clip</strong>
+          <span>Texto de teste utilizado para preencher espaço para poder mostrar como o white-space funciona na prática.</span>
+        </div>
+
+        <div>
+          <strong>ellipsis</strong>
+          <span>Texto de teste utilizado para preencher espaço para poder mostrar como o white-space funciona na prática.</span>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

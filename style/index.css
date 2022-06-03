@@ -1,0 +1,33 @@
+body > main {
+ margin: auto;
+ 
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+body > main > section {
+  display: flex;
+  gap: 1rem;
+}
+
+body > main > section > a{
+  padding: 1rem;
+
+  background-color: var(--secondary);
+  box-shadow: 5px 5px 10px #00000010;
+  border-radius: 7px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+body > main > section > a img{
+  border-radius: 7px;
+  transition: ease-in-out 0.3s;
+}
+
+body > main > section > a img:hover{
+  transform: scale(1.03);
+}

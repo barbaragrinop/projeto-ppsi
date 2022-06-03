@@ -1,0 +1,26 @@
+body > main > h2 {
+  margin: auto;
+}
+
+body > main > div {
+  padding: 1rem;
+  box-shadow: 5px 5px 10px #00000010;
+  background-color: var(--secondary);
+  display: flex;
+  gap: 1rem;
+  width: 50%;
+  margin: auto;
+}
+
+body > main > div > img {
+  border-radius: 7px;
+}
+
+body > main > div > div {
+  display: flex;
+  flex-direction: column;
+}
+
+body > main > div > div p:last-child {
+  margin-top: auto;
+}

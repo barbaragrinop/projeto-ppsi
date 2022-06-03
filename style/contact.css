@@ -1,0 +1,64 @@
+body > main {
+  margin: auto;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body > main > form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  padding: 1rem;
+  background-color: var(--secondary);
+  border-radius: 7px;
+  box-shadow: 5px 5px 10px #00000010;
+}
+
+body > main > form > p{
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+body > main > form > p > input, textarea{
+  width: 17rem;
+  resize: none;
+  padding: 0.5rem;
+  border: 1px solid var(--input-border);
+  border-radius: 4px;
+}
+
+body > main > form > fieldset{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  padding: 0.5rem;
+  width: 100%;
+  margin-left: auto;
+
+  border-radius: 7px;
+  border: 1px solid var(--input-border)
+}
+
+
+body > main > form > button[type="submit"] {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: var(--primary);
+
+  color: var(--secondary);
+  border-radius: 7px;
+  border: 0;
+
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+body > main > form > button[type="submit"]:hover {
+  filter: opacity(0.9);
+}
